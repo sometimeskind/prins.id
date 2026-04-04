@@ -1,6 +1,6 @@
 # prins.id
 
-A personal landing page. Displays a hedgehog (🦔) by default, or a lobster (🦞) if you connect over IPv6.
+A personal landing page. Displays a hedgehog (🦔) by default, or a lobster (🦞) if you connect over IPv6. The turtle (🐢) in the HTML source is the placeholder that nginx replaces at serve time.
 
 ## How it works
 
