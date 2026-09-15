@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy — prins.id</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 3rem 1.25rem;
+      background: #0f0f0f;
+      color: #cfcfcf;
+      font: 16px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    main { max-width: 38rem; margin: 0 auto; }
+    h1 { font-size: 1.5rem; margin: 0 0 .25rem; color: #e6e6e6; }
+    dt { color: #e6e6e6; font-weight: 600; margin-top: 1.25rem; }
+    dd { margin: .25rem 0 0; }
+    a { color: #8ab4f8; }
+    .updated { color: #8a8a8a; font-size: .875rem; margin: 0 0 2rem; }
+    footer { margin-top: 3rem; color: #8a8a8a; font-size: .875rem; }
+  </style>
+</head>
+<body>
+<main>
+
+<h1>Privacy</h1>
+<p class="updated">Last updated 15 September 2026</p>
+
+<p>
+  calendar-sync is a personal application that copies my own Google Calendars
+  onto a server I operate. It has one user: me.
+</p>
+
+<dl>
+  <dt>Data it accesses</dt>
+  <dd>
+    Google Calendar events, read-only, over Google's CalDAV API, authorised with
+    OAuth 2.0 using the <code>https://www.googleapis.com/auth/calendar</code>
+    scope. Only the calendars I have explicitly listed in its configuration. It
+    never writes to Google.
+  </dd>
+
+  <dt>How it uses them</dt>
+  <dd>
+    To keep a copy of my own calendars readable from my own devices. Nothing
+    else.
+  </dd>
+
+  <dt>How it stores them</dt>
+  <dd>
+    On hardware I own and operate, for as long as I keep running the
+    application.
+  </dd>
+
+  <dt>Who it shares them with</dt>
+  <dd>
+    Nobody. Not sold, not shared with third parties, not sent to any analytics
+    or advertising service, not used to train anything.
+  </dd>
+</dl>
+
+<footer><a href="/">← prins.id</a></footer>
+
+</main>
+</body>
+</html>
